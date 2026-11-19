@@ -1,0 +1,49 @@
+# Compiled objects and binaries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app/
+*.dSYM/
+
+# Build directories and generated files
+build/
+cmake-build-*/
+out/
+debug/
+release/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.dir/
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Dependency and coverage output
+*.d
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# Local editor and IDE files
+.idea/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.sdf
+
+# OS metadata
+.DS_Store
+Thumbs.db
